@@ -4,6 +4,8 @@
 
 This project implements a user authentication module with sign-up and sign-in functionality using React for the front end and NestJS with MongoDB for the back end. Users can register an account and log in to the application, with the front end providing forms for sign-up and sign-in, and the back end handling user data storage and authentication.
 
+https://github.com/faheemdev1/nest-auth-module/assets/173107258/8c797740-e615-47e5-bce2-24ab1f1f4dbe
+
 ## Features
 - User signup with email, name, and password (minimum length and character type validation).
 - User signin with email and password.
