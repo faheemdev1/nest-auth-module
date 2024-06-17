@@ -11,7 +11,6 @@ const Login = ({user, handleUser}) => {
 
   const handleLogin = async (data) => {
     try {
-      console.log("data", data);
       const response = await handleLoginService(data);
       handleUser(response.data);
       localStorage.setItem('user', JSON.stringify(response.data));

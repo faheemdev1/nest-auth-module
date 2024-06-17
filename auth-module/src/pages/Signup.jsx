@@ -10,7 +10,6 @@ const SignUp = ({user,handleUser}) => {
 
   const handleSignUp = async (data) => {
     try {
-      console.log("data", data);
       const response = await handleSignupService(data);
       handleUser(response.data);
       localStorage.setItem('user', JSON.stringify(response.data));
